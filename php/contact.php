@@ -21,7 +21,7 @@ get_header();
 <div class="bg-container" smoothscroll role="main">
     <section id="contact">
         <div class="container">
-            <strong class="heading margin fade-up" scroll="reveal">Contact Us</strong>
+            <strong class="heading margin fade-up" scroll="reveal">Connect with us</strong>
             <h1 class="h1 text-reveal" scroll="reveal">
                 <?= $page['headline'] ?>
             </h1>
@@ -54,8 +54,7 @@ get_header();
                                 aria-label="Message"></textarea>
                         </fieldset>
 
-                        <button type="submit" class="button text-reveal clickable" scroll="reveal"
-                            aria-label="Submit Form">
+                        <button type="submit" class="button clickable" aria-label="Submit Form">
                             <strong>Email
                                 Us Now</strong>
                         </button>
@@ -69,25 +68,25 @@ get_header();
             </div>
         </section>
 
+
         <div id="contact-container">
             <div class="container" id="contact-details">
-                <div class="fade-up fade-up-para-lg" scroll="reveal">
-                    <h2 class="para lg">Email</h2>
-                    <p class="para sm"><a href="mailto:<?= $page['contact']['email'] ?>">
-                            <?= $page['contact']['email'] ?>
-                        </a></p>
-                </div>
                 <div class="fade-up fade-up-para-lg" scroll="reveal">
                     <h2 class="para lg">Social</h2>
                     <p class="para sm">
                         <a href="<?= $page['contact']['linkedin'] ?>" target="_blank" class="ext-link">
                             LinkedIn
-
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="-295 387 20 19" xml:space="preserve">
                                 <path d="M-287.8 390.7v1l6.6.3-9.4 9.7.6.7 9.4-9.7-.3 7.4h.9l.3-9.1-8.1-.3z" />
                             </svg>
                         </a>
                     </p>
+                </div>
+                <div class="fade-up fade-up-para-lg" scroll="reveal">
+                    <h2 class="para lg">Email</h2>
+                    <p class="para sm"><a href="mailto:<?= $page['contact']['email'] ?>">
+                            <?= $page['contact']['email'] ?>
+                        </a></p>
                 </div>
             </div>
 
