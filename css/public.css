@@ -4214,7 +4214,6 @@
             /** Tablet & Laptop **********/
                 @media all and (min-width: 768px) and (max-width: 1439px) {
                     section#contact { padding-bottom: 80px; }
-                    section#contact h1 { margin-bottom: 80px; }
                 }
                 
             /** Tablet & Laptop SM **********/
@@ -4225,12 +4224,12 @@
     
             /** Tablet **********/
                 @media all and (min-width: 768px) and (max-width: 1023px) {
-                    section#contact > div.container { padding: 0 calc(var(--margin) + var(--col1)); }
+                    section#contact > div.container { padding: 0 var(--col1); }
                 }
     
             /** Laptop & Desktop **********/
                 @media all and (min-width: 1023px) {
-                    section#contact > div.container { padding: 0 calc(var(--margin) + var(--col2)); }
+                    section#contact > div.container { padding: 0 var(--col1); }
                     section#contact h1 { white-space: pre-line; }
                     section#contact #contact-container { min-height: calc((var(--margin) + var(--col6)) * .93); }
                     section#contact #contact-container #contact-details a { transition: color .4s ease-out; }
@@ -4255,7 +4254,7 @@
             /** Desktop **********/
                 @media all and (min-width: 1440px) {
                     section#contact { padding-bottom: 150px; }
-                    section#contact h1 { margin-bottom: 130px; }
+                    section#contact h1 { margin-bottom: 50px; }
                 }
                 
 
@@ -4292,7 +4291,7 @@
     
             /** Laptop & Desktop **********/
                 @media all and (min-width: 1023px) {
-                    section#contact-form div.container { padding: 0 calc(var(--margin) + var(--col2)); }
+                    section#contact-form div.container { padding: 0 var(--col1); }
                     section#contact-form form { display: -webkit-flex; display: flex; flex-wrap: wrap; justify-content: space-between; }
                     section#contact-form form fieldset:not(.block) { width: calc((100% - 40px) / 3); }
                     section#contact-form form fieldset:nth-child(4) { margin-bottom: 50px; }
