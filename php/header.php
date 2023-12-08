@@ -41,7 +41,7 @@
 			<meta name="twitter:image" content="<?=$meta['image']?>">
 		<?php endif; ?>
 		
-		<link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri()?>/assets/css/forum.min.css?v2.04">		
+		<link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri()?>/assets/css/public.css?v2.001">		
 	
 <? /*
 		<link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri()?>/assets/css/public.css?v2.x.<?=md5(time())?>">
